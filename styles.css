@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Rest of your CSS styles */
+
+    
+    body {
+    font-family: 'Montserrat', sans-serif;
+ 
+    /* Other styles for the body */
+}
+
+.sub-heading {
+    font-family: 'Your Chosen Font', sans-serif;
+    /* Other styles for sub-headings */
+}
+
+/* Other CSS styles... */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-height: 50px;
+}
+
+.report-title {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    text-align: right;
+}
+
+h1.report-title {
+    font-size: 14px;
+    margin: 0;
+    color: #7d7d7d;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #555;
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+    margin: 0 0 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.findings {
+    border-top: 2px solid #333;
+    padding-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+}
+
+
+
+/* Add this to your CSS file */
+
+.sub-heading {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.bullet-list {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.highlight {
+    color: #F26531; /* You can change the color to your preference */
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+/* Apply different font color to "Area" and "Question" */
+.area {
+    color: #67AE3E; /* Blue color for "Area" */
+    margin-top: 50px;
+}
+
+.question {
+    color: #004D5A; /* A different color for "Question" */
+    font-size: 18px;
+}
+
+
+
+.no-bullet {
+    list-style: none; /* Remove bullet points */
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.no-bullet-intro {
+    list-style: none; /* Remove bullet points */
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* Style the Table of Contents */
+.table-of-contents {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.table-of-contents h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.table-of-contents ul {
+    list-style: none;
+    padding: 0;
+}
+
+.table-of-contents li {
+    margin-left: 20px;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the Table of Contents Links */
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
